@@ -1,0 +1,172 @@
+<!DOCTYPE html> <!--tipo de documento-->
+<html lang="es">
+<head>  <!--cabezera de la página-->
+    <meta charset="UTF-8">  <!--etiqueta de codificación--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Chileno en Santiago</title> <!--etiqueta de encabezado-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, nav, section, footer {
+            margin: 20px;
+        }
+        header h1, section h2 {
+            color: #B22222;
+        }
+        nav a {
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #B22222;
+        }
+        .menu-item {
+            font-weight: bold;
+        }
+        .price {
+            color: #FF4500;
+        }
+        .promo {
+            background-color: #FFFFE0;
+            padding: 10px;
+            border: 1px solid #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurante Chileno en Santiago</h1> <!--encabezado de nivel 1 de la página-->
+    </header>
+
+    <nav>   <!--barra de navegación-->
+        <a href="#quienes-somos">Quiénes Somos</a>  <!-- etiqueta de enlace-->
+        <a href="#platos">Platos</a>
+        <a href="#bebidas">Bebidas</a>
+        <a href="#postres">Postres</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#plato-de-la-semana">Plato de la Semana</a>
+    </nav>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>  <!-- Encabezado de nivel 2, título de la sección -->
+        <p><strong>Denominación Legal:</strong> Restaurante Chile S.A.</p>  <!-- Párrafo con información sobre la denominación legal -->
+        <p><strong>Descripción:</strong> Somos un restaurante especializado en la auténtica gastronomía chilena, ofreciendo una experiencia culinaria única en Santiago.</p>  <!-- Párrafo con la descripción del restaurante -->
+        <p><strong>Dirección:</strong> Avenida Principal 123, Santiago, Chile</p>  <!-- Párrafo con la dirección del restaurante -->
+    </section>    
+
+    <section id="platos">
+        <h2>Platos</h2>
+        <table>
+            <tr>
+                <th>Plato</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Cazuela de Vacuno</td>
+                <td>$8,000</td>
+            </tr>
+            <tr>
+                <td>Empanadas de Pino</td>
+                <td>$3,000</td>
+            </tr>
+            <tr>
+                <td>Pastel de Choclo</td>
+                <td>$7,500</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="bebidas">
+        <h2>Bebidas</h2>
+        <table>
+            <tr>
+                <th>Bebida</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Vino Tinto Chileno</td>
+                <td>$5,000</td>
+            </tr>
+            <tr>
+                <td>Piscola</td>
+                <td>$3,500</td>
+            </tr>
+            <tr>
+                <td>Chicha</td>
+                <td>$2,500</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="postres">
+        <h2>Postres</h2>
+        <table>
+            <tr>
+                <th>Postre</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Leche Asada</td>
+                <td>$2,500</td>
+            </tr>
+            <tr>
+                <td>Torta de Milhojas</td>
+                <td>$4,000</td>
+            </tr>
+            <tr>
+                <td>Mote con Huesillos</td>
+                <td>$2,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="especialidades">
+        <h2>Especialidades de la Casa</h2> <!-- Encabezado de nivel 2, título de la sección -->
+        <dl> <!-- Lista de definición -->
+            <dt>Curanto</dt> <!-- Término de definición -->
+            <dd>Plato tradicional chileno con mariscos, carnes, y vegetales cocidos en piedras calientes.</dd> <!-- Descripción del término -->
+            <dt>Lomo a lo Pobre</dt> <!-- Otro término de definición -->
+            <dd>Bistec de res acompañado de papas fritas, cebolla caramelizada y huevo frito.</dd> <!-- Descripción del término -->
+        </dl>
+    </section>    
+
+    <section id="promociones">
+        <h2>Promociones Especiales</h2>
+        <ul>
+            <li>Almuerzo Ejecutivo: Menú ejecutivo con entrada, plato de fondo y postre por solo $12,000. Vigencia: De lunes a viernes, de 12:00 a 15:00 horas.</li>
+            <li>2x1 en Bebidas: Lleva dos bebidas por el precio de una. Vigencia: Todos los días, de 18:00 a 20:00 horas.</li>
+        </ul>
+    </section>
+   
+    <section id="plato-de-la-semana">
+        <h2>Plato de la Semana</h2>
+        <p><strong>Pastel de Choclo:</strong> Un pastel de maíz típico chileno, preparado con una capa de maíz molido y un relleno de carne, cebolla, aceitunas, y huevo duro.</p>
+        <img src="image1.jpg" alt="Pastel de Choclo" width="300">
+        <img src="image2.jpg" alt="Porción de Pastel de Choclo" width="300">
+        <audio controls>
+            <source src="mireceta.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+        <p>Para más información sobre el Pastel de Choclo, visita <a href="https://es.wikipedia.org/wiki/Pastel_de_choclo" target="_blank">Wikipedia</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Restaurante Chileno en Santiago. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
